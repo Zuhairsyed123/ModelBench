@@ -1,0 +1,14 @@
+# Core API Framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+
+# Data Validation & Configuration
+pydantic>=2.8.0
+pydantic-settings>=2.4.0
+python-dotenv>=1.0.0
+
+# HTTP Client for Testing & Future Provider Calls
+httpx>=0.27.0
+
+# Testing
+pytest>=8.0.0
