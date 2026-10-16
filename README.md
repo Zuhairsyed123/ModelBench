@@ -2,6 +2,10 @@
 
 A production-minded, modular framework for evaluating, benchmarking, and routing large language model (LLM) requests. ModelBench measures and tracks response latency, token consumption, estimated monetary costs, and response-quality metrics across models.
 
+<p align="center">
+  <img src="assets/modelbench_dashboard.jpg" alt="ModelBench Dashboard Preview" width="100%" />
+</p>
+
 ---
 
 ## Important: Mock vs. Real Benchmarks
@@ -20,6 +24,8 @@ A production-minded, modular framework for evaluating, benchmarking, and routing
 
 ```
 ModelBench/
+├── assets/
+│   └── modelbench_dashboard.jpg # Platform dashboard preview visual
 ├── app/
 │   ├── __init__.py           # Application package metadata and version
 │   ├── main.py               # FastAPI application with REST endpoints & lifespan
